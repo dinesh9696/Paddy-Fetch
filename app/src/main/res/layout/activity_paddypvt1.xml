@@ -1,0 +1,59 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cornflower_blue"
+    tools:context=".Paddypvt1">
+
+    <LinearLayout
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="‪                வணக்கம்
+                    நீங்கள் தங்களுக்கு தேவையான விதைகளை இங்கே வாங்கி அதை விவசாயம் செய்து கொள்ளலாம்.
+                     ஆனால் அதற்கு சில விதிகளை நீங்கள் பின்பற்ற  வேண்டும். அவகளை காணலாம்.
+
+                           1.நீங்கள் முதலில் இங்கே உங்கள் பெயரில் தனியாக ஒரு கணக்கு வைத்திருக்க வேண்டும்.
+                           2.நீங்கள் உபயோகித்த விதைகளை எங்கள் நிறுவனங்களில் விற்றுக் கொள்ளலாம்.
+                           3.எங்களுடைய நடைமுறை படி விவசாயம் செய்ய வேண்டும்.
+                           4.உங்களுடைய விதையின் நிலவரத்தை நீங்களே முடிவு செய்யும் அதிகாரம் இங்கே இல்லை.
+                           5.நீங்கள் பயன்படுத்தும்  விதையின் தரத்தைப் பொருட்டும் அப்போதைய சந்தை மதிப்பிற்கு தகுந்தவாறு உங்களுடைய விதைக்கு நிலவரம் செய்து தரப்படும்.
+                           6.நீங்கள் வாங்கும் விதையின் பணத்தை எப்போது வேண்டுமானாலும் செலுத்தலாம் இல்லை என்றால் தாங்கள் விற்பனை செய்யும் போது அதில் பிடித்தம் செய்யப்படும்.
+                      மேற்கண்ட 6 விதிகளும் உங்களுக்கு சம்மதம் என்றால் கீழே சமர்ப்பிக்கவும் இல்லை என்றால் ரத்து செய்யவும்.
+
+                                                நன்றி‬"
+            android:textColor="@color/green"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <Button
+            android:id="@+id/btnsave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="35dp"
+            android:text="பதிவு செய்க"
+            android:background="@drawable/background_login_button1"
+            android:textColor="@color/lavender"/>
+
+        <Button
+            android:id="@+id/btnsearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="35dp"
+            android:text="தேடல்"
+            android:background="@drawable/background_login_button1"
+            android:textColor="@color/pink"/>
+
+    </LinearLayout>
+</ScrollView>

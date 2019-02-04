@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "854246873375",
+    "firebase_url": "https://demokmp.firebaseio.com",
+    "project_id": "demokmp",
+    "storage_bucket": "demokmp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:854246873375:android:06c91fb6108dc135",
+        "android_client_info": {
+          "package_name": "com.example.dinesh.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "854246873375-3gql4sg6h1g5p69efhqmvvdpet8etr5h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dinesh.firebase",
+            "certificate_hash": "bfbaf82708e9e767b057cbb1e30b927d58ba1b08"
+          }
+        },
+        {
+          "client_id": "854246873375-6tc9sdk56321l3rejipr66j86gvb2i96.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoBBWx-Zph2EsV4sfuZNbBCZRNJvF8jGs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "854246873375-6tc9sdk56321l3rejipr66j86gvb2i96.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

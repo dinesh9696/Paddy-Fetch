@@ -1,0 +1,237 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lavender"
+    tools:context=".Paddylifesearch">
+
+    <LinearLayout
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txthead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="நெல் தகவல் தேடல் படிவம்"
+            android:textColor="@color/dark_orange"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/txtpaddyname2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView1"
+            android:layout_marginTop="18dp"
+            android:text="நெல் பெயர்"
+            android:textColor="@color/brown"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/txtpaddyname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView1"
+            android:layout_marginTop="18dp"
+            android:text="நெல் பெயர்"
+            android:textColor="@color/blue_violet"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+
+        <EditText
+            android:id="@+id/txtpaddyname1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView2"
+            android:layout_alignBottom="@+id/textView2"
+            android:layout_alignParentRight="true"
+            android:ems="10"
+            android:hint="நெல் பெயரை உள்ளிடவும்"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/btnsearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/save"
+            android:layout_alignBottom="@+id/save"
+            android:text="சமர்ப்பிக்க"
+            android:background="@drawable/background_login_button1"
+            android:textColor="@color/pink"/>
+
+
+
+        <TextView
+            android:id="@+id/txtferttime1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView1"
+            android:layout_marginTop="18dp"
+            android:text="பயன்படுத்தப்படும் உரங்களின் கால அளவு"
+            android:textColor="@color/dark_red"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/txtferttime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView1"
+            android:layout_marginTop="18dp"
+            android:text="பயன்படுத்தப்படும் உரங்களின் கால அளவு"
+            android:textColor="@color/dark_green"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+        <TextView
+            android:id="@+id/txtfertilizers1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView1"
+            android:layout_marginTop="18dp"
+            android:text="பயன்படுத்தப்படும் உரங்களின் பெயர்"
+            android:textColor="@color/purple"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+
+        <TextView
+            android:id="@+id/txtfertilizers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView1"
+            android:layout_marginTop="18dp"
+            android:text="பயன்படுத்தப்படும் உரங்களின் பெயர்"
+            android:textColor="@color/rosy_brown"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+
+        <TextView
+            android:id="@+id/txtkalaitime1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView1"
+            android:layout_marginTop="18dp"
+            android:text="பயன்படுத்தப்படும் கலைஇன் கால அளவு"
+            android:textColor="@color/dark_cyan"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/txtkalaitime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView1"
+            android:layout_marginTop="18dp"
+            android:text="பயன்படுத்தப்படும் கலைஇன் கால அளவு"
+            android:textColor="@color/dark_red"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+        <TextView
+            android:id="@+id/txttime1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView1"
+            android:layout_marginTop="18dp"
+            android:text="நெல் வாழ்க்கை கால அளவுகள்"
+            android:textColor="@color/chocolate"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+        <TextView
+            android:id="@+id/txttime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView1"
+            android:layout_marginTop="18dp"
+            android:text="நெல் வாழ்க்கை கால அளவுகள்"
+            android:textColor="@color/lime"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+        <TextView
+            android:id="@+id/txtdurations1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView1"
+            android:layout_marginTop="18dp"
+            android:text="நெல் வாழ்க்கை பருவம்"
+            android:textColor="@color/dark_orange"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+        <TextView
+            android:id="@+id/txtdurations"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView1"
+            android:layout_marginTop="18dp"
+            android:text="நெல் வாழ்க்கை பருவம்"
+            android:textColor="@color/dark_slate_blue"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+        <TextView
+            android:id="@+id/txtsoil1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView1"
+            android:layout_marginTop="18dp"
+            android:text="மண் வகை"
+            android:textColor="@color/coral"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+        <TextView
+            android:id="@+id/txtsoil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView1"
+            android:layout_marginTop="18dp"
+            android:text="மண் வகை"
+            android:textColor="@color/dark_cyan"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+        <TextView
+            android:id="@+id/txtseason1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView1"
+            android:layout_marginTop="18dp"
+            android:text="பருவங்கள்"
+            android:textColor="@color/dark_slate_blue"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/txtseason"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView1"
+            android:layout_marginTop="18dp"
+            android:text="பருவங்கள்"
+            android:textColor="@color/dark_magenta"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+    </LinearLayout>
+</ScrollView>

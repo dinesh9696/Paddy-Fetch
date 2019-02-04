@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dinesh.firebase">
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/p1"
+        android:label="Paddy Fetch"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Registration" />
+        <activity android:name=".Paddy" />
+        <activity android:name=".Paddygroup" />
+        <activity android:name=".Paddylifeinsert" />
+        <activity android:name=".Paddylifesearch" />
+        <activity android:name=".Paddysales" />
+        <activity android:name=".Paddygvt" />
+        <activity android:name=".Paddygvtinsert" />
+        <activity android:name=".Paddygvtsearch" />
+        <activity android:name=".Paddypvt" />
+        <activity android:name=".Paddypvtinsert" />
+        <activity android:name=".Paddypvtsearch" />
+        <activity android:name=".Paddysalesstation" />
+        <activity android:name=".Paddygvt1" />
+        <activity android:name=".Paddygovtinsert1" />
+        <activity android:name=".Paddygovtsearch1" />
+        <activity android:name=".Paddypvt1" />
+        <activity android:name=".Paddypvtinsert1" />
+        <activity android:name=".Paddypvtsearch1" />
+        <activity android:name=".Progressbar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".PDF" />
+        <activity android:name=".Pdf" />
+        <activity android:name=".Pdf1" />
+        <activity android:name=".Pdf2"></activity>
+    </application>
+
+</manifest>

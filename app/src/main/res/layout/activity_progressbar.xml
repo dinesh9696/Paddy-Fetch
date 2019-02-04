@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_cyan"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/txte1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="நெல் தகவல் பயன்பாடுகள்"
+        android:textSize="27dp"
+        android:textColor="@color/blue"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content">
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_centerInParent="true"
+            android:indeterminate="false"
+            android:max="100"
+            android:progress="0"
+            android:progressDrawable="@drawable/progressbar"
+            android:secondaryProgress="0" />
+
+        <TextView
+            android:id="@+id/txtProgress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/progressBar"
+            android:layout_centerInParent="true"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+        android:secondaryProgress="0" />
+
+
+
+    </RelativeLayout>
+</RelativeLayout>

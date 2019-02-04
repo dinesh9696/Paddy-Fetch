@@ -1,0 +1,255 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    tools:context=".Paddypvtinsert">
+
+    <LinearLayout
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="நெல் விற்பனை நுழைக்க வடிவம்"
+            android:textColor="@color/dark_orange"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView1"
+            android:layout_marginTop="18dp"
+            android:text="மின்னஞ்சல் முகவரி"
+            android:textColor="@color/coral"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/txtemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView2"
+            android:layout_alignBottom="@+id/textView2"
+            android:layout_alignParentRight="true"
+            android:ems="10"
+            android:hint="மின்னஞ்சல் முகவரி உள்ளிடவும்"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView1"
+            android:layout_marginTop="18dp"
+            android:text="நெல் பெயர்"
+            android:textColor="@color/dark_red"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/txtpaddyname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView2"
+            android:layout_alignBottom="@+id/textView2"
+            android:layout_alignParentRight="true"
+            android:ems="10"
+            android:hint="நெல் பெயரை உள்ளிடவும்"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView1"
+            android:layout_marginTop="18dp"
+            android:text="பயனர் பெயர்"
+            android:textColor="@color/rosy_brown"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/txtusername1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView2"
+            android:layout_alignBottom="@+id/textView2"
+            android:layout_alignParentRight="true"
+            android:ems="10"
+            android:hint="பயனர் பெயர் உள்ளிடவும்"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView1"
+            android:layout_marginTop="18dp"
+            android:text="பயனர் முகவரி"
+            android:textColor="@color/aqua"
+            android:inputType="text"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+
+        <EditText
+            android:id="@+id/txtuad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView2"
+            android:layout_alignBottom="@+id/textView2"
+            android:layout_alignParentRight="true"
+            android:ems="10"
+            android:hint="பயனர் முகவரி உள்ளிடவும்"
+            android:inputType="text" />
+
+
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView1"
+            android:layout_marginTop="18dp"
+            android:text="விற்பனை தேதி"
+            android:textColor="@color/magenta"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+        <Button
+            android:id="@+id/btnsetdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="35dp"
+            android:text="அமைக்க தேதி"
+            android:background="@drawable/background_login_button1"
+            android:textColor="@color/lavender"/>
+
+
+        <EditText
+            android:id="@+id/txtsolddate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView2"
+            android:layout_alignBottom="@+id/textView2"
+            android:layout_alignParentRight="true"
+            android:ems="10"
+            android:hint="விற்பனை தேதி உள்ளிடவும்"
+            android:inputType="date" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView1"
+            android:layout_marginTop="18dp"
+            android:text="மொத்த கிலோ"
+            android:textColor="@color/lavender"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/txtkgs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView2"
+            android:layout_alignBottom="@+id/textView2"
+            android:layout_alignParentRight="true"
+            android:ems="10"
+            android:hint="கிலோவில் மொத்த விதைகளில் நுழையவும்"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView1"
+            android:layout_marginTop="18dp"
+            android:text="தொலைபேசி எண்"
+            android:textColor="@color/dark_orange"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/txtpno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView2"
+            android:layout_alignBottom="@+id/textView2"
+            android:layout_alignParentRight="true"
+            android:ems="10"
+            android:hint="தொலைபேசி எண் நுழையுங்கள்"
+            android:inputType="number" />
+
+
+
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView1"
+            android:layout_marginTop="18dp"
+            android:text="மொத்த தொகை"
+            android:textColor="@color/greenYellow"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/txttotal1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView2"
+            android:layout_alignBottom="@+id/textView2"
+            android:layout_alignParentRight="true"
+            android:ems="10"
+            android:hint="உங்கள் மொத்த தொகை உள்ளிடவும்"
+            android:inputType="number"/>
+
+
+        <Button
+            android:id="@+id/btncal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/save"
+            android:layout_alignBottom="@+id/save"
+            android:text="கணக்கிட"
+            android:background="@drawable/background_login_button1"
+            android:textColor="@color/green"/>
+
+
+        <Button
+            android:id="@+id/btnsave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="35dp"
+            android:text="பதிவு செய்க"
+            android:background="@drawable/background_login_button1"
+            android:textColor="@color/chocolate"/>
+
+        <Button
+            android:id="@+id/btncancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/save"
+            android:layout_alignBottom="@+id/save"
+            android:text="ரத்து"
+            android:background="@drawable/background_login_button1"
+            android:textColor="@color/red"/>
+
+
+
+    </LinearLayout>
+</ScrollView>
